@@ -1,0 +1,8 @@
+2026-02-11 23:21:51,482 - INFO - Database warehouse initialized successfully.
+2026-02-11 23:22:18,986 - INFO - Loaded transaction: Food - \u20b920.0
+2026-02-11 23:22:34,507 - INFO - Loaded transaction: Sabji - \u20b930.0
+2026-02-11 23:22:53,834 - INFO - Loaded transaction: Tea - \u20b940.0
+2026-02-11 23:23:05,203 - INFO - Loaded transaction: Burgur - \u20b945.0
+2026-02-11 23:23:16,350 - INFO - Loaded transaction: Bread - \u20b915.0
+2026-02-11 23:23:21,120 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-02-11 23:23:21,122 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
