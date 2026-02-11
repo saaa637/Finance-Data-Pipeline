@@ -18,6 +18,7 @@ An end-to-end **Data Engineering Pipeline** built with Python and SQLite. This p
   - `Matplotlib`: Data Visualization
   - `Logging`: Pipeline monitoring
   - `CSV`: Data portability
+  - open the web project https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
 
 ## 📂 Project Structure
 ```text
