@@ -11,6 +11,17 @@ The system demonstrates a practical **ETL (Extract, Transform, Load)** workflow 
 The cleaned financial dataset can be exported into CSV format for further analysis using tools such as **Power BI** and **Tableau**.
 
 ---
+#  Live Web Project
+
+The project is also available as a deployed Streamlit application.
+
+🚀 **Live Demo:**
+
+https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
+
+The web application provides an accessible interface for exploring the financial data pipeline and its analytical capabilities.
+
+---
 
 # 🎯 Project Objectives
 
@@ -342,18 +353,6 @@ Pipeline Execution
 ```
 
 This provides basic observability into the health of the pipeline.
-
----
-
-# 🌐 Live Web Project
-
-The project is also available as a deployed Streamlit application.
-
-🚀 **Live Demo:**
-
-https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
-
-The web application provides an accessible interface for exploring the financial data pipeline and its analytical capabilities.
 
 ---
 
