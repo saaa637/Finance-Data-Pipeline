@@ -357,20 +357,19 @@ The web application provides an accessible interface for exploring the financial
 
 ---
 
-# 🛠️ Technology Stack
+##  Tools & Technologies
 
-| Technology     | Purpose                      |
-| -------------- | ---------------------------- |
-| **Python 3.x** | Core programming language    |
-| **SQLite3**    | Financial data warehouse     |
-| **Tkinter**    | Data ingestion GUI           |
-| **Matplotlib** | Data visualization           |
-| **Logging**    | Pipeline monitoring          |
-| **CSV**        | BI data portability          |
-| **SQL**        | Financial analytics          |
-| **Streamlit**  | Web application / deployment |
-| **Power BI**   | Downstream BI integration    |
-| **Tableau**    | Downstream BI integration    |
+![Python](https://img.shields.io/badge/Python%203.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite3](https://img.shields.io/badge/SQLite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-FF6B35?style=for-the-badge&logo=python&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Logging](https://img.shields.io/badge/Logging-4B5563?style=for-the-badge&logo=python&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=files&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=databricks&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
 
 ---
 
