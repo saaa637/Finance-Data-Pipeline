@@ -1,6 +1,17 @@
-# 💰 Financial Data Pipeline & Insights Engine
+#  Financial Data Pipeline & Insights Engine
 
-## 📊 Project Overview
+##  Project Overview
+#  Live Web Project
+
+The project is also available as a deployed Streamlit application.
+
+ **Live Demo:**
+
+https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
+
+The web application provides an accessible interface for exploring the financial data pipeline and its analytical capabilities.
+
+---
 
 The **Financial Data Pipeline & Insights Engine** is an end-to-end **Data Engineering and Business Intelligence project** built using **Python and SQLite**.
 
@@ -11,19 +22,8 @@ The system demonstrates a practical **ETL (Extract, Transform, Load)** workflow 
 The cleaned financial dataset can be exported into CSV format for further analysis using tools such as **Power BI** and **Tableau**.
 
 ---
-#  Live Web Project
 
-The project is also available as a deployed Streamlit application.
-
-🚀 **Live Demo:**
-
-https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
-
-The web application provides an accessible interface for exploring the financial data pipeline and its analytical capabilities.
-
----
-
-# 🎯 Project Objectives
+#  Project Objectives
 
 The main objectives of this project are:
 
@@ -41,7 +41,7 @@ The main objectives of this project are:
 
 ---
 
-# 🏗️ Pipeline Architecture
+#  Pipeline Architecture
 
 ```text
                   Financial Transactions
@@ -79,7 +79,7 @@ The main objectives of this project are:
 
 ---
 
-# 🔄 ETL Workflow
+#  ETL Workflow
 
 The project follows a complete **Extract → Transform → Load** architecture.
 
@@ -114,7 +114,7 @@ Raw Financial Data
 
 ---
 
-# 1️⃣ Extract
+# 1️ Extract
 
 The extraction stage captures financial transaction information through the application's data ingestion interface.
 
@@ -132,11 +132,11 @@ The extracted information is then passed to the transformation stage.
 
 ---
 
-# 2️⃣ Transform
+# 2️ Transform
 
 The transformation stage focuses on improving the quality and consistency of incoming financial data.
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 String normalization is applied to financial transaction fields to maintain consistent data.
 
@@ -164,7 +164,7 @@ This improves consistency when performing grouping and aggregation operations.
 
 ---
 
-# 3️⃣ Load
+# 3️ Load
 
 After transformation, cleaned transaction data is stored inside a **SQLite database**.
 
@@ -191,7 +191,7 @@ SQLite was selected because it provides:
 
 ---
 
-# 🗄️ Financial Data Warehouse
+#  inancial Data Warehouse
 
 The project uses:
 
@@ -205,13 +205,13 @@ The warehouse provides a centralized location for storing cleaned transaction da
 
 ---
 
-# 📊 Advanced Analytics
+#  Advanced Analytics
 
 The pipeline includes built-in SQL analytics for generating financial insights.
 
 ---
 
-## 📅 7-Day Spending Trends
+##  7-Day Spending Trends
 
 SQL aggregation is used to analyze spending activity across a rolling short-term period.
 
@@ -242,7 +242,7 @@ Spending Insight
 
 ---
 
-# 🏷️ Category Distribution
+#  Category Distribution
 
 The system also analyzes spending across different financial categories.
 
@@ -261,7 +261,7 @@ Category-level aggregation can help identify where the majority of spending is o
 
 ---
 
-# 📈 Data Visualization
+#  Data Visualization
 
 **Matplotlib** is used for generating financial visualizations.
 
@@ -276,7 +276,7 @@ Visualization helps convert raw transaction records into understandable financia
 
 ---
 
-# 📤 BI Integration
+#  BI Integration
 
 One of the key features of the project is its ability to export cleaned data into a BI-friendly CSV file.
 
@@ -314,7 +314,7 @@ This makes the project suitable for extending the pipeline into a full Business 
 
 ---
 
-# 🖥️ Data Ingestion Interface
+#  Data Ingestion Interface
 
 The project uses **Tkinter** to provide a graphical interface for financial data entry.
 
@@ -324,7 +324,7 @@ This provides a simple ingestion layer between the user and the backend data war
 
 ---
 
-# 📝 System Logging & Monitoring
+#  System Logging & Monitoring
 
 The pipeline includes a logging system for monitoring data ingestion and troubleshooting.
 
@@ -372,7 +372,7 @@ This provides basic observability into the health of the pipeline.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 ExpenseTracker/
@@ -395,7 +395,7 @@ ExpenseTracker/
 
 ---
 
-# 🔄 End-to-End Data Flow
+#  End-to-End Data Flow
 
 ```text
 User
@@ -429,7 +429,7 @@ Financial Reporting
 
 ---
 
-# ⚙️ How the Pipeline Works
+#  How the Pipeline Works
 
 ## Step 1 — Capture Transaction
 
@@ -489,33 +489,33 @@ The file can then be connected to external BI tools.
 
 ---
 
-# 📊 Key Analytical Capabilities
+#  Key Analytical Capabilities
 
 The project can be used to analyze:
 
-### 💰 Spending Trends
+###  Spending Trends
 
 Understand how spending changes over time.
 
-### 🏷️ Category Distribution
+###  Category Distribution
 
 Identify which categories contribute most to total spending.
 
-### 📅 Short-Term Trends
+###  Short-Term Trends
 
 Analyze spending behavior across a 7-day period.
 
-### 📈 Financial Visualization
+###  Financial Visualization
 
 Convert transaction data into charts and visual reports.
 
-### 🔍 Transaction-Level Analysis
+###  Transaction-Level Analysis
 
 Maintain structured transaction records for further analysis.
 
 ---
 
-# 💡 Business & Financial Value
+#  Business & Financial Value
 
 Although designed around personal finance data, the architecture demonstrates concepts that can be extended to larger financial analytics systems.
 
@@ -531,28 +531,28 @@ The same pipeline architecture can be adapted for:
 
 ---
 
-# ⭐ Key Highlights
+#  Key Highlights
 
-* 🔄 End-to-end ETL pipeline
-* 🐍 Python-based data engineering
-* 🧹 Automated data cleaning
-* 📝 String normalization
-* 🗄️ SQLite-based data warehouse
-* 📊 SQL analytical queries
-* 📅 7-day spending trend analysis
-* 🏷️ Category-level spending analysis
-* 📈 Matplotlib visualizations
-* 📤 Power BI-ready CSV export
-* 📤 Tableau-ready data export
-* 📝 Pipeline logging
-* 🖥️ Tkinter data ingestion interface
-* 🌐 Streamlit deployment
+*  End-to-end ETL pipeline
+*  Python-based data engineering
+*  Automated data cleaning
+*  String normalization
+*  SQLite-based data warehouse
+*  SQL analytical queries
+*  7-day spending trend analysis
+*  Category-level spending analysis
+*  Matplotlib visualizations
+*  Power BI-ready CSV export
+*  Tableau-ready data export
+*  Pipeline logging
+*  Tkinter data ingestion interface
+*  Streamlit deployment
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
-## ☁️ Cloud Data Warehouse
+##  Cloud Data Warehouse
 
 The SQLite warehouse could be migrated to cloud platforms such as:
 
@@ -564,7 +564,7 @@ The SQLite warehouse could be migrated to cloud platforms such as:
 
 ---
 
-## 🔄 Automated Scheduled ETL
+##  Automated Scheduled ETL
 
 The pipeline could be extended with scheduled execution using tools such as:
 
@@ -577,7 +577,7 @@ This would allow automated data processing without manual execution.
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 A complete Power BI dashboard could be built using the exported dataset.
 
@@ -594,7 +594,7 @@ Transaction Count
 
 ---
 
-## 🤖 Financial Insights
+##  Financial Insights
 
 Future versions could include automated recommendations such as:
 
@@ -606,13 +606,13 @@ Future versions could include automated recommendations such as:
 
 ---
 
-## 📡 Real-Time Data Integration
+##  Real-Time Data Integration
 
 The system could eventually integrate with financial APIs or other transaction sources to support automated ingestion instead of manual entry.
 
 ---
 
-# 📌 Project Information
+#  Project Information
 
 **Project Name:** Financial Data Pipeline & Insights Engine
 
@@ -638,7 +638,7 @@ The system could eventually integrate with financial APIs or other transaction s
 
 ---
 
-# 👨‍💻 Skills Demonstrated
+#  Skills Demonstrated
 
 This project demonstrates practical knowledge of:
 
@@ -665,14 +665,14 @@ This project demonstrates practical knowledge of:
 
 ---
 
-# 🌐 Live Application
+#  Live Application
 
-🚀 **Financial Data Pipeline & Insights Engine:**
+ **Financial Data Pipeline & Insights Engine:**
 
 https://finance-data-pipeline-j8nbkuryhmx3pc4dr8dpiv.streamlit.app/
 
 ---
 
-# 📄 License
+#  License
 
 This project is intended for educational, portfolio, data engineering, and business intelligence demonstration purposes.
